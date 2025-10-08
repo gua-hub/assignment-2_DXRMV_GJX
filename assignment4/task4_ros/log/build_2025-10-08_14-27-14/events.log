@@ -1,0 +1,55 @@
+[0.000000] (-) TimerEvent: {}
+[0.000397] (hikvision_camera) JobQueued: {'identifier': 'hikvision_camera', 'dependencies': OrderedDict()}
+[0.000431] (hikvision_camera) JobStarted: {'identifier': 'hikvision_camera'}
+[0.005903] (hikvision_camera) JobProgress: {'identifier': 'hikvision_camera', 'progress': 'cmake'}
+[0.006390] (hikvision_camera) JobProgress: {'identifier': 'hikvision_camera', 'progress': 'build'}
+[0.006827] (hikvision_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/guojinxuan/ros_task/task4_ros/build/hikvision_camera', '--', '-j32', '-l32'], 'cwd': '/home/guojinxuan/ros_task/task4_ros/build/hikvision_camera', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LANGUAGE', 'en_US:en'), ('USER', 'guojinxuan'), ('LC_TIME', 'zh_CN.UTF-8'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('SHLVL', '1'), ('HOME', '/home/guojinxuan'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/guojinxuan/ros_task/task4_ros'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.104.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ZSH', '/home/guojinxuan/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '3497'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '3985'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6310'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/guojinxuan/ros_task/task4_ros/install'), ('LOGNAME', 'guojinxuan'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '8:37290'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'guojinxuan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('ZSH_ROS2_INSTALL_PATH', '/opt/ros/humble'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/MVS-4.6.0_x86_64_20250808/bin:/home/guojinxuan/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/opt/MVS-4.6.0_x86_64_20250808/bin'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/guojinxuan-Legion-R9000P-ARX8:@/tmp/.ICE-unix/3958,unix/guojinxuan-Legion-R9000P-ARX8:/tmp/.ICE-unix/3958'), ('INVOCATION_ID', 'e077d10980254a51a3f26bbb6eedf6d6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7f27a8fe4f.sock'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('AMENT_PREFIX_PATH', '/home/guojinxuan/ros_task/task4_ros/install/hikvision_camera:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', '2f51d3e5-1085-4e9c-946a-f99e57c62f29'), ('PWD', '/home/guojinxuan/ros_task/task4_ros/build/hikvision_camera'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('MVCAM_SDK_VERSION', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/home/guojinxuan/ros_task/task4_ros/install/hikvision_camera:/opt/ros/humble')]), 'shell': False}
+[0.047442] (hikvision_camera) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hikvision_camera_node\x1b[0m\n'}
+[0.064707] (hikvision_camera) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hikvision_camera_node.dir/src/hikvision_camera.cpp.o\x1b[0m\n'}
+[0.099828] (-) TimerEvent: {}
+[0.200001] (-) TimerEvent: {}
+[0.300180] (-) TimerEvent: {}
+[0.400347] (-) TimerEvent: {}
+[0.500491] (-) TimerEvent: {}
+[0.600640] (-) TimerEvent: {}
+[0.700775] (-) TimerEvent: {}
+[0.800922] (-) TimerEvent: {}
+[0.901115] (-) TimerEvent: {}
+[1.001255] (-) TimerEvent: {}
+[1.101390] (-) TimerEvent: {}
+[1.201515] (-) TimerEvent: {}
+[1.301632] (-) TimerEvent: {}
+[1.401754] (-) TimerEvent: {}
+[1.501880] (-) TimerEvent: {}
+[1.601982] (-) TimerEvent: {}
+[1.702142] (-) TimerEvent: {}
+[1.759049] (hikvision_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid HikvisionCameraNode::setupRealCamera()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.759248] (hikvision_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:792:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstd::string image_format\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.759307] (hikvision_camera) StderrLine: {'line': b'  792 |      std::string \x1b[01;31m\x1b[Kimage_format\x1b[m\x1b[K;\n'}
+[1.759365] (hikvision_camera) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.759417] (hikvision_camera) StderrLine: {'line': b'\n'}
+[1.759467] (hikvision_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:777:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::string image_format\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[1.759518] (hikvision_camera) StderrLine: {'line': b'  777 |      std::string \x1b[01;36m\x1b[Kimage_format\x1b[m\x1b[K;\n'}
+[1.759557] (hikvision_camera) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.759598] (hikvision_camera) StderrLine: {'line': b'\n'}
+[1.774739] (hikvision_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid HikvisionCameraNode::processImageAndPublish(MV_FRAME_OUT&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.774835] (hikvision_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:1222:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcase value \xe2\x80\x98\x1b[01m\x1b[K17301516\x1b[m\x1b[K\xe2\x80\x99 not in enumerated type \xe2\x80\x98\x1b[01m\x1b[KMvGvspPixelType\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch\x07-Wswitch\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.774895] (hikvision_camera) StderrLine: {'line': b' 1222 |         \x1b[01;35m\x1b[Kcase\x1b[m\x1b[K 0x0108000c:  // BayerBG8\n'}
+[1.774948] (hikvision_camera) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.802224] (-) TimerEvent: {}
+[1.902434] (-) TimerEvent: {}
+[2.002667] (-) TimerEvent: {}
+[2.103006] (-) TimerEvent: {}
+[2.203506] (-) TimerEvent: {}
+[2.303743] (-) TimerEvent: {}
+[2.403942] (-) TimerEvent: {}
+[2.504172] (-) TimerEvent: {}
+[2.604313] (-) TimerEvent: {}
+[2.704465] (-) TimerEvent: {}
+[2.804632] (-) TimerEvent: {}
+[2.827752] (hikvision_camera) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/hikvision_camera_node.dir/build.make:76: CMakeFiles/hikvision_camera_node.dir/src/hikvision_camera.cpp.o] Error 1\n'}
+[2.827971] (hikvision_camera) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hikvision_camera_node.dir/all] Error 2\n'}
+[2.828209] (hikvision_camera) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.830154] (hikvision_camera) CommandEnded: {'returncode': 2}
+[2.836575] (hikvision_camera) JobEnded: {'identifier': 'hikvision_camera', 'rc': 2}
+[2.846831] (-) EventReactorShutdown: {}

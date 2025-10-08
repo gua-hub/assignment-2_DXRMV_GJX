@@ -1,0 +1,13 @@
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:[m[K In member function ‘[01m[Kvoid HikvisionCameraNode::captureAndPublishImage()[m[K’:
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:1773:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1773 |  } else if (nRet == MV_E_CALLORDER) {
+
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:1775:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1775 |  } else if (nRet == MV_E_RESOURCE) {
+
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:1795:16:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kerror_count[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+ 1795 |     static int [01;35m[Kerror_count[m[K = 0;
+      |                [01;35m[K^~~~~~~~~~~[m[K
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.408
+/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.408
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.408

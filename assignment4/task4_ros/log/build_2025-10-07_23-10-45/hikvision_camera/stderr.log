@@ -1,0 +1,20 @@
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:[m[K In member function ‘[01m[Kvoid HikvisionCameraNode::updateCameraParams(int, int, int, const string&)[m[K’:
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:150:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kimage_format[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  150 | [01;35m[Knst std::string &image_format[m[K)
+      | [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:[m[K In member function ‘[01m[Kvoid HikvisionCameraNode::processImageAndPublish(MV_FRAME_OUT&)[m[K’:
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:348:9:[m[K [01;35m[Kwarning: [m[Kcase value ‘[01m[K17301516[m[K’ not in enumerated type ‘[01m[KMvGvspPixelType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+  348 |         [01;35m[Kcase[m[K 0x0108000c:  // BayerBG8
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:[m[K At global scope:
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:539:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid HikvisionCameraNode::queryCameraIntrinsics()[m[K’
+  539 | void [01;31m[KHikvisionCameraNode[m[K::queryCameraIntrinsics()
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:539:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid HikvisionCameraNode::queryCameraIntrinsics()[m[K’
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:10:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass HikvisionCameraNode[m[K’ defined here
+   10 | class [01;36m[KHikvisionCameraNode[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/hikvision_camera_node.dir/build.make:76: CMakeFiles/hikvision_camera_node.dir/src/hikvision_camera.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hikvision_camera_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

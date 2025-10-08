@@ -1,0 +1,32 @@
+[0.008s] Invoking command in '/home/guojinxuan/ros_task/task4_ros/build/hikvision_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/guojinxuan/ros_task/task4_ros/build/hikvision_camera -- -j32 -l32
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target hikvision_camera_node[0m
+[0.072s] [ 50%] [32mBuilding CXX object CMakeFiles/hikvision_camera_node.dir/src/hikvision_camera.cpp.o[0m
+[1.758s] [01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:[m[K In member function ‘[01m[Kvoid HikvisionCameraNode::debugEnumDevices()[m[K’:
+[1.758s] [01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:889:5:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K4294967295[m[K’ from ‘[01m[Kunsigned int[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[1.758s]   889 |     [01;31m[K}[m[K;
+[1.758s]       |     [01;31m[K^[m[K
+[1.759s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.759s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.759s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.759s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.759s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.759s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.759s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.759s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.759s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.759s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.759s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.759s]                  from [01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:811[m[K:
+[1.759s] [01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:[m[K In member function ‘[01m[Kvoid HikvisionCameraNode::printDeviceDetails(MV_CC_DEVICE_INFO*, int)[m[K’:
+[1.759s] [01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:935:98:[m[K [01;31m[Kerror: [m[K‘[01m[KMV_USB3_DEVICE_INFO[m[K’ {aka ‘[01m[Kstruct _MV_USB3_DEVICE_INFO_[m[K’} has no member named ‘[01m[KchInstanceId[m[K’
+[1.759s]   935 | Info.stUsb3VInfo.[01;31m[KchInstanceId[m[K);
+[1.759s]       |                  [01;31m[K^~~~~~~~~~~~[m[K
+[1.759s] 
+[1.759s] [01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:945:72:[m[K [01;31m[Kerror: [m[K‘[01m[KMV_CC_DEVICE_INFO[m[K’ {aka ‘[01m[Kstruct _MV_CC_DEVICE_INFO_[m[K’} has no member named ‘[01m[KnDeviceCfgVersion[m[K’
+[1.760s]   945 | x", pDeviceInfo->[01;31m[KnDeviceCfgVersion[m[K);
+[1.760s]       |                  [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.760s] 
+[2.784s] gmake[2]: *** [CMakeFiles/hikvision_camera_node.dir/build.make:76: CMakeFiles/hikvision_camera_node.dir/src/hikvision_camera.cpp.o] Error 1
+[2.784s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hikvision_camera_node.dir/all] Error 2
+[2.784s] gmake: *** [Makefile:146: all] Error 2
+[2.786s] Invoked command in '/home/guojinxuan/ros_task/task4_ros/build/hikvision_camera' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/guojinxuan/ros_task/task4_ros/build/hikvision_camera -- -j32 -l32

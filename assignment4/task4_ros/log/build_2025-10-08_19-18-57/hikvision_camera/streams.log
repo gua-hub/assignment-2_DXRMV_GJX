@@ -1,0 +1,31 @@
+[0.007s] Invoking command in '/home/guojinxuan/ros_task/task4_ros/build/hikvision_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/guojinxuan/ros_task/task4_ros/build/hikvision_camera -- -j32 -l32
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target hikvision_camera_node[0m
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/hikvision_camera_node.dir/src/hikvision_camera.cpp.o[0m
+[1.722s] [01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:[m[K In member function ‘[01m[Kvoid HikvisionCameraNode::updateCameraParams(int, int, int, const string&, int, int)[m[K’:
+[1.722s] [01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:1423:33:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.722s]  1423 | [01;35m[K_width.nCurValue != image_width[m[K) {
+[1.722s]       | [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.723s] 
+[1.723s] [01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:1428:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.723s]  1428 | [01;35m[Kheight.nCurValue != image_height[m[K) {
+[1.723s]       | [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[1.723s] 
+[1.731s] [01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:[m[K In member function ‘[01m[Kvoid HikvisionCameraNode::captureAndPublishImage()[m[K’:
+[1.731s] [01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:1770:18:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K2147483655[m[K’ from ‘[01m[Kunsigned int[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[1.731s]  1770 |             case [01;31m[K0x80000007[m[K: error_msg = "MV_E_GC_UNKNOW - Unknown error or device communication issue"; break;
+[1.731s]       |                  [01;31m[K^~~~~~~~~~[m[K
+[1.731s] [01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:1771:18:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K2147484417[m[K’ from ‘[01m[Kunsigned int[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[1.731s]  1771 |             case [01;31m[K0x80000301[m[K: error_msg = "MV_E_GC_ERR_USER_DEFINED - Parameter conflict or user defined error"; break;
+[1.731s]       |                  [01;31m[K^~~~~~~~~~[m[K
+[1.741s] [01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:1772:18:[m[K [01;31m[Kerror: [m[K‘[01m[KMV_E_CALL_ORDER[m[K’ was not declared in this scope; did you mean ‘[01m[KMV_E_CALLORDER[m[K’?
+[1.741s]  1772 |             case [01;31m[KMV_E_CALL_ORDER[m[K: error_msg = "Call order error"; break;
+[1.741s]       |                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.741s]       |                  [32m[KMV_E_CALLORDER[m[K
+[1.749s] [01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:1773:18:[m[K [01;31m[Kerror: [m[K‘[01m[KMV_E_RESOURCE_IN_USE[m[K’ was not declared in this scope; did you mean ‘[01m[KMV_E_PORT_IN_USE[m[K’?
+[1.749s]  1773 |             case [01;31m[KMV_E_RESOURCE_IN_USE[m[K: error_msg = "Resource in use"; break;
+[1.749s]       |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.749s]       |                  [32m[KMV_E_PORT_IN_USE[m[K
+[2.753s] gmake[2]: *** [CMakeFiles/hikvision_camera_node.dir/build.make:76: CMakeFiles/hikvision_camera_node.dir/src/hikvision_camera.cpp.o] Error 1
+[2.753s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hikvision_camera_node.dir/all] Error 2
+[2.754s] gmake: *** [Makefile:146: all] Error 2
+[2.756s] Invoked command in '/home/guojinxuan/ros_task/task4_ros/build/hikvision_camera' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/guojinxuan/ros_task/task4_ros/build/hikvision_camera -- -j32 -l32

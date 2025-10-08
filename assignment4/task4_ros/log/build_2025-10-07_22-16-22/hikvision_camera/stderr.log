@@ -1,0 +1,54 @@
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:511:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  511 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:11:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   11 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:[m[K In member function ‘[01m[Kvoid HikvisionCameraNode::setupRealCamera()[m[K’:
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:72:13:[m[K [01;31m[Kerror: [m[K‘[01m[KconnectBySerialNumber[m[K’ was not declared in this scope
+   72 |             [01;31m[KconnectBySerialNumber[m[K(serial_number);
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:74:13:[m[K [01;31m[Kerror: [m[K‘[01m[KconnectFirstAvailableCamera[m[K’ was not declared in this scope
+   74 |             [01;31m[KconnectFirstAvailableCamera[m[K();
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:82:49:[m[K [01;31m[Kerror: [m[K‘[01m[KcaptureAndPublishImage[m[K’ is not a member of ‘[01m[KHikvisionCameraNode[m[K’
+   82 |                 std::bind(&HikvisionCameraNode::[01;31m[KcaptureAndPublishImage[m[K, this)
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:94:49:[m[K [01;31m[Kerror: [m[K‘[01m[KreadAndPublishFrameRate[m[K’ is not a member of ‘[01m[KHikvisionCameraNode[m[K’
+   94 |                 std::bind(&HikvisionCameraNode::[01;31m[KreadAndPublishFrameRate[m[K, this)
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:[m[K In member function ‘[01m[Kvoid HikvisionCameraNode::updateCameraParams(int, int, int, const string&)[m[K’:
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:179:5:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  179 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:209:5:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  209 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:240:5:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  240 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:255:5:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  255 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:278:5:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  278 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:352:5:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  352 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:409:5:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  409 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:457:5:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  457 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:484:5:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  484 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:[m[K At global scope:
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:511:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  511 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/hikvision_camera_node.dir/build.make:76: CMakeFiles/hikvision_camera_node.dir/src/hikvision_camera.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hikvision_camera_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

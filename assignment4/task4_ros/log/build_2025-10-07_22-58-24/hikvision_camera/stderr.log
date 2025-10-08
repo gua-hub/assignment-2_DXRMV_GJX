@@ -1,0 +1,57 @@
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:[m[K In member function ‘[01m[Kvoid HikvisionCameraNode::setupRealCamera()[m[K’:
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:152:47:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  152 | Node::checkAndUpdateParams[01;31m[K([m[K)
+      |                           [01;31m[K^[m[K
+
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:170:45:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  170 | pdateCameraParams[01;31m[K([m[Kint exposure_time, int gain, int frame_rate, const std::string &image_format)
+      |                  [01;31m[K^[m[K
+
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:213:50:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  213 | e::readAndPublishFrameRate[01;31m[K([m[K)
+      |                           [01;31m[K^[m[K
+
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:243:53:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  243 | readAndLogActualParameters[01;31m[K([m[K)
+      |                           [01;31m[K^[m[K
+
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:299:54:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  299 | PixelFormatString[01;31m[K([m[Kunsigned int pixel_format)
+      |                  [01;31m[K^[m[K
+
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:314:49:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  314 | de::captureAndPublishImage[01;31m[K([m[K)
+      |                           [01;31m[K^[m[K
+
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:337:49:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  337 | ssImageAndPublish[01;31m[K([m[KMV_FRAME_OUT &stImageInfo)
+      |                  [01;31m[K^[m[K
+
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:410:54:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  410 | onnectFirstAvailableCamera[01;31m[K([m[K)
+      |                           [01;31m[K^[m[K
+
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:467:48:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  467 | ectBySerialNumber[01;31m[K([m[Kconst std::string &serial_number)
+      |                  [01;31m[K^[m[K
+
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:515:43:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  515 | :attemptReconnect[01;31m[K([m[Kconst std::string& serial_number)
+      |                  [01;31m[K^[m[K
+
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:542:44:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  542 | displayCameraInfo[01;31m[K([m[KMV_CC_DEVICE_INFO* pDeviceInfo)
+      |                  [01;31m[K^[m[K
+
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:564:1:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  564 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:569:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  569 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:56:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   56 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/hikvision_camera_node.dir/build.make:76: CMakeFiles/hikvision_camera_node.dir/src/hikvision_camera.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hikvision_camera_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

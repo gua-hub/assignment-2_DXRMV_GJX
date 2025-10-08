@@ -1,0 +1,12 @@
+[0.008s] Invoking command in '/home/guojinxuan/ros_task/task4_ros/build/hikvision_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/guojinxuan/ros_task/task4_ros/build/hikvision_camera -- -j32 -l32
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target hikvision_camera_node[0m
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/hikvision_camera_node.dir/src/hikvision_camera.cpp.o[0m
+[1.803s] [01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:[m[K In member function ‘[01m[Kvoid HikvisionCameraNode::setPixelFormat(const string&)[m[K’:
+[1.803s] [01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:1632:23:[m[K [01;31m[Kerror: [m[K‘[01m[KMV_CC_IsGrabbing[m[K’ was not declared in this scope; did you mean ‘[01m[KMV_CC_StopGrabbing[m[K’?
+[1.803s]  1632 | nt grab_status = [01;31m[KMV_CC_IsGrabbing[m[K(camera_handle_);
+[1.803s]       |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.804s]       |                  [32m[KMV_CC_StopGrabbing[m[K
+[2.880s] gmake[2]: *** [CMakeFiles/hikvision_camera_node.dir/build.make:76: CMakeFiles/hikvision_camera_node.dir/src/hikvision_camera.cpp.o] Error 1
+[2.880s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hikvision_camera_node.dir/all] Error 2
+[2.880s] gmake: *** [Makefile:146: all] Error 2
+[2.882s] Invoked command in '/home/guojinxuan/ros_task/task4_ros/build/hikvision_camera' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/guojinxuan/ros_task/task4_ros/build/hikvision_camera -- -j32 -l32

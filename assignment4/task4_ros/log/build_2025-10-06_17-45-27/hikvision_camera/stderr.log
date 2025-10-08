@@ -1,0 +1,15 @@
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:[m[K In member function ‘[01m[Kvoid HikvisionCameraNode::captureAndPublishImage()[m[K’:
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:139:38:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_::stFrameInfo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  139 |         MV_FRAME_OUT stImageInfo = {0[01;35m[K}[m[K;
+      |                                      [01;35m[K^[m[K
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:139:38:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_::nRes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:[m[K In member function ‘[01m[Kvoid HikvisionCameraNode::connectFirstAvailableCamera()[m[K’:
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:196:49:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_CC_DEVICE_INFO_LIST_::pDeviceInfo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  196 |         MV_CC_DEVICE_INFO_LIST stDeviceList = {0[01;35m[K}[m[K;
+      |                                                 [01;35m[K^[m[K
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:[m[K In member function ‘[01m[Kvoid HikvisionCameraNode::connectBySerialNumber(const string&)[m[K’:
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:225:49:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_CC_DEVICE_INFO_LIST_::pDeviceInfo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  225 |         MV_CC_DEVICE_INFO_LIST stDeviceList = {0[01;35m[K}[m[K;
+      |                                                 [01;35m[K^[m[K
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.408
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.408

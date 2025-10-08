@@ -1,0 +1,37 @@
+[0.008s] Invoking command in '/home/guojinxuan/ros_task/task4_ros/build/hikvision_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/guojinxuan/ros_task/task4_ros/build/hikvision_camera -- -j32 -l32
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target hikvision_camera_node[0m
+[0.073s] [ 50%] [32mBuilding CXX object CMakeFiles/hikvision_camera_node.dir/src/hikvision_camera.cpp.o[0m
+[2.005s] [01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:[m[K In member function ‘[01m[Kvoid HikvisionCameraNode::processImageAndPublish(MV_FRAME_OUT&)[m[K’:
+[2.005s] [01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:1217:9:[m[K [01;35m[Kwarning: [m[Kcase value ‘[01m[K17301516[m[K’ not in enumerated type ‘[01m[KMvGvspPixelType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[2.005s]  1217 |         [01;35m[Kcase[m[K 0x0108000c:  // BayerBG8
+[2.006s]       |         [01;35m[K^~~~[m[K
+[4.109s] [100%] [32m[1mLinking CXX executable hikvision_camera_node[0m
+[4.199s] /usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.408
+[4.199s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.408
+[4.200s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.408
+[4.399s] [100%] Built target hikvision_camera_node
+[4.408s] Invoked command in '/home/guojinxuan/ros_task/task4_ros/build/hikvision_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/guojinxuan/ros_task/task4_ros/build/hikvision_camera -- -j32 -l32
+[4.415s] Invoking command in '/home/guojinxuan/ros_task/task4_ros/build/hikvision_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/guojinxuan/ros_task/task4_ros/build/hikvision_camera
+[4.421s] -- Install configuration: ""
+[4.421s] -- Installing: /home/guojinxuan/ros_task/task4_ros/install/hikvision_camera/lib/hikvision_camera/hikvision_camera_node
+[4.422s] -- Set runtime path of "/home/guojinxuan/ros_task/task4_ros/install/hikvision_camera/lib/hikvision_camera/hikvision_camera_node" to ""
+[4.422s] -- Up-to-date: /home/guojinxuan/ros_task/task4_ros/install/hikvision_camera/share/hikvision_camera/launch
+[4.422s] -- Up-to-date: /home/guojinxuan/ros_task/task4_ros/install/hikvision_camera/share/hikvision_camera/launch/camera_launch.py
+[4.422s] -- Up-to-date: /home/guojinxuan/ros_task/task4_ros/install/hikvision_camera/share/ament_index/resource_index/package_run_dependencies/hikvision_camera
+[4.423s] -- Up-to-date: /home/guojinxuan/ros_task/task4_ros/install/hikvision_camera/share/ament_index/resource_index/parent_prefix_path/hikvision_camera
+[4.423s] -- Up-to-date: /home/guojinxuan/ros_task/task4_ros/install/hikvision_camera/share/hikvision_camera/environment/ament_prefix_path.sh
+[4.423s] -- Up-to-date: /home/guojinxuan/ros_task/task4_ros/install/hikvision_camera/share/hikvision_camera/environment/ament_prefix_path.dsv
+[4.423s] -- Up-to-date: /home/guojinxuan/ros_task/task4_ros/install/hikvision_camera/share/hikvision_camera/environment/path.sh
+[4.423s] -- Up-to-date: /home/guojinxuan/ros_task/task4_ros/install/hikvision_camera/share/hikvision_camera/environment/path.dsv
+[4.423s] -- Up-to-date: /home/guojinxuan/ros_task/task4_ros/install/hikvision_camera/share/hikvision_camera/local_setup.bash
+[4.423s] -- Up-to-date: /home/guojinxuan/ros_task/task4_ros/install/hikvision_camera/share/hikvision_camera/local_setup.sh
+[4.423s] -- Up-to-date: /home/guojinxuan/ros_task/task4_ros/install/hikvision_camera/share/hikvision_camera/local_setup.zsh
+[4.423s] -- Up-to-date: /home/guojinxuan/ros_task/task4_ros/install/hikvision_camera/share/hikvision_camera/local_setup.dsv
+[4.423s] -- Installing: /home/guojinxuan/ros_task/task4_ros/install/hikvision_camera/share/hikvision_camera/package.dsv
+[4.423s] -- Up-to-date: /home/guojinxuan/ros_task/task4_ros/install/hikvision_camera/share/ament_index/resource_index/packages/hikvision_camera
+[4.423s] -- Up-to-date: /home/guojinxuan/ros_task/task4_ros/install/hikvision_camera/share/hikvision_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.423s] -- Up-to-date: /home/guojinxuan/ros_task/task4_ros/install/hikvision_camera/share/hikvision_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.423s] -- Up-to-date: /home/guojinxuan/ros_task/task4_ros/install/hikvision_camera/share/hikvision_camera/cmake/hikvision_cameraConfig.cmake
+[4.423s] -- Up-to-date: /home/guojinxuan/ros_task/task4_ros/install/hikvision_camera/share/hikvision_camera/cmake/hikvision_cameraConfig-version.cmake
+[4.423s] -- Up-to-date: /home/guojinxuan/ros_task/task4_ros/install/hikvision_camera/share/hikvision_camera/package.xml
+[4.424s] Invoked command in '/home/guojinxuan/ros_task/task4_ros/build/hikvision_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/guojinxuan/ros_task/task4_ros/build/hikvision_camera

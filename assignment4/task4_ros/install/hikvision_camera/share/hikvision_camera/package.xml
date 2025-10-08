@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypelocation="http://www.ros.org/schema/package_format3.xsd"?>
+<package format="3">
+  <name>hikvision_camera</name>
+  <version>0.0.1</version>
+  <description>ROS 2 package for Hikvision Camera Integration. This package provides an interface to control and acquire images from Hikvision cameras using the MVS C++ SDK.</description>
+  <maintainer email="guojinxuan@stu.xjtu.edu.cn">guojinxuan</maintainer>
+  <license>MIT</license>
+
+  <!-- Build tool dependency -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Dependencies for build, export, and execution -->
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>std_msgs</depend>
+
+  <!-- OpenCV dependencies -->
+  <build_depend>opencv</build_depend>
+  <exec_depend>opencv</exec_depend>
+
+  <!-- Test dependencies -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <!-- Export build type (CMake) -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

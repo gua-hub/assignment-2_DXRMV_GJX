@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target hikvision_camera_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/hikvision_camera_node.dir/src/hikvision_camera.cpp.o[0m
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:[m[K In member function ‘[01m[Kvoid HikvisionCameraNode::updateCameraParams(int, int, int, const string&)[m[K’:
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:150:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kimage_format[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  150 | [01;35m[Knst std::string &image_format[m[K)
+      | [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:[m[K In member function ‘[01m[Kvoid HikvisionCameraNode::processImageAndPublish(MV_FRAME_OUT&)[m[K’:
+[01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:347:9:[m[K [01;35m[Kwarning: [m[Kcase value ‘[01m[K17301516[m[K’ not in enumerated type ‘[01m[KMvGvspPixelType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+  347 |         [01;35m[Kcase[m[K 0x0108000c:  // BayerBG8
+      |         [01;35m[K^~~~[m[K
+[100%] [32m[1mLinking CXX executable hikvision_camera_node[0m
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.408
+/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.408
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.408
+/usr/bin/ld: CMakeFiles/hikvision_camera_node.dir/src/hikvision_camera.cpp.o: in function `HikvisionCameraNode::setupRealCamera()':
+hikvision_camera.cpp:(.text+0xcd9): undefined reference to `HikvisionCameraNode::connectBySerialNumber(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: hikvision_camera.cpp:(.text+0xcea): undefined reference to `HikvisionCameraNode::connectFirstAvailableCamera()'
+/usr/bin/ld: CMakeFiles/hikvision_camera_node.dir/src/hikvision_camera.cpp.o: in function `HikvisionCameraNode::captureAndPublishImage()':
+hikvision_camera.cpp:(.text+0x4743): undefined reference to `HikvisionCameraNode::attemptReconnect(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/hikvision_camera_node.dir/build.make:192: hikvision_camera_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hikvision_camera_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,21 @@
+[0.007s] Invoking command in '/home/guojinxuan/ros_task/task4_ros/build/hikvision_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/guojinxuan/ros_task/task4_ros/build/hikvision_camera -- -j32 -l32
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target hikvision_camera_node[0m
+[0.064s] [ 50%] [32mBuilding CXX object CMakeFiles/hikvision_camera_node.dir/src/hikvision_camera.cpp.o[0m
+[1.699s] [01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:119:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid HikvisionCameraNode::setupRealCamera()[m[K’ cannot be overloaded with ‘[01m[Kvoid HikvisionCameraNode::setupRealCamera()[m[K’
+[1.699s]   119 |     void [01;31m[KsetupRealCamera[m[K()
+[1.699s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.699s] [01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:40:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid HikvisionCameraNode::setupRealCamera()[m[K’
+[1.699s]    40 |     void [01;36m[KsetupRealCamera[m[K()
+[1.699s]       |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[1.718s] [01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:[m[K In member function ‘[01m[Kvoid HikvisionCameraNode::checkAndUpdateParams()[m[K’:
+[1.718s] [01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:116:9:[m[K [01;31m[Kerror: [m[K‘[01m[KupdateCameraParams[m[K’ was not declared in this scope
+[1.718s]   116 |         [01;31m[KupdateCameraParams[m[K(exposure_time, gain, frame_rate, image_format);
+[1.718s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.723s] [01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:[m[K In member function ‘[01m[Kvoid HikvisionCameraNode::processImageAndPublish(MV_FRAME_OUT&)[m[K’:
+[1.723s] [01m[K/home/guojinxuan/ros_task/task4_ros/src/hikvision_camera/src/hikvision_camera.cpp:337:13:[m[K [01;35m[Kwarning: [m[Kcase value ‘[01m[K17301516[m[K’ not in enumerated type ‘[01m[KMvGvspPixelType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[1.723s]   337 |             [01;35m[Kcase[m[K 0x0108000c:  // BayerBG8
+[1.723s]       |             [01;35m[K^~~~[m[K
+[2.713s] gmake[2]: *** [CMakeFiles/hikvision_camera_node.dir/build.make:76: CMakeFiles/hikvision_camera_node.dir/src/hikvision_camera.cpp.o] Error 1
+[2.713s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hikvision_camera_node.dir/all] Error 2
+[2.713s] gmake: *** [Makefile:146: all] Error 2
+[2.715s] Invoked command in '/home/guojinxuan/ros_task/task4_ros/build/hikvision_camera' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/guojinxuan/ros_task/task4_ros/build/hikvision_camera -- -j32 -l32

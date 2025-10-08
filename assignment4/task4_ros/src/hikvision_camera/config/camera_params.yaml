@@ -1,0 +1,27 @@
+hikvision_camera_node:
+  ros__parameters:
+    # 相机序列号（为空则连接第一个可用相机）
+    serial_number: ""
+    interface_priority: "USB" 
+
+    # USB特定参数
+    usb_transfer_timeout: 3000
+    usb_block_size: 1048576
+    usb_buffer_count: 10
+    
+    # 相机参数
+    exposure_time: 10000      # 曝光时间（微秒）
+    gain: 10                  # 增益
+    frame_rate: 100            # 帧率
+    image_format: "BGR8"      # 图像格式
+    image_width: 1440
+    image_height: 1080
+
+    
+    # 发布设置
+    camera_name: "hikvision_camera"
+    frame_id: "camera_link"
+    
+    # 重连设置
+    auto_reconnect: true
+    reconnect_interval: 5.0
